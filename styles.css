@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.intro{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/walking\ exercise\ leaves\ sports\ shoes\ HD\ wallpaper.jpg);
+    background-position: center ;
+    background-size: cover;
+}
+.navbar{
+    background-color: black;
+    display: inline-flex;
+}
+.logo{
+    color: white;
+}
+.navlist{
+    display: inline-flex;
+    list-style: none;
+    text-decoration: none;
+}
+.navlist li{
+    margin: 1em;
+    font-size: 1rem;
+}
+@media (max-width:950px){
+    .navbar{
+        display: block;
+        text-align: center;
+    }
+    
+}
+.getStarted{
+    top: 30%;
+    left: 5%;
+}
+.line{
+    font-size: 3rem;
+    font-weight: bold;
+    color: blue;
+    font-style: italic;
+}
+.word{
+    color: red;
+}
+#start{
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color:white;
+    background-color: blue;
+    padding: 0.3rem;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#start:hover{
+    background-color: white;
+    color: blue;
+}
+@media (max-width:600px){
+    .line{
+        text-align: center;
+    }
+}
+.about{
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+}
+.about{
+    font-weight: bolder;
+    
+}
+.about h2{
+    margin-top: 20vh;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.about p{
+    font-size: 2rem;
+    margin: 3rem;
+    margin-top: 5vh;
+    text-align: center;
+    justify-self: center;
+    margin-bottom: 15vh;
+    font-style: italic;
+}
+.services h2{
+    text-align: center;
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: 5vh;
+}
+.service{
+    
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10vh;
+}
+.service p{
+    font-style: italic;
+}
+.service1{
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    background-color: #333;
+}
+.service1 img{
+    width: 100%;
+    height:300px;
+}
+.service2{
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    background-color: #333;
+}
+.service2 img{
+    width: 100%;
+    height:300px;
+}
+.service3{
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    background-color: #333;
+    
+}
+.service3 img{
+    width: 100%;
+    height:300px;
+}
+.more{
+    position: relative;
+    bottom: 0;
+}
+.service1:hover{
+    background-color: #332;
+    
+}
+.service2:hover{
+    background-color: #332;
+}
+.service3:hover{
+    background-color: #332;
+}
+@media (max-width:950px){
+    .service{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .service1{
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 10vh;
+    }
+    .service2{
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 10vh;
+    }
+    .service3{
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 10vh;
+    }
+}
+
+.team h2{
+    margin-top: 10vh;
+    text-align: center;
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: 10vh;
+}
+.members{
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin-bottom: 10vh;
+}
+.coach{
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    background-color: #333;
+}
+.coach img{
+    width: 100%;
+    height:200px;
+}
+.coach p{
+    font-style: italic;
+}
+@media (max-width: 950px){
+    .members{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .coach{
+        width: 50%;
+        height: 400px;
+        margin: 0 auto;
+        margin-bottom: 10vh;
+    }
+}
+.up{
+    position: fixed;
+    left: 90%;
+    bottom: 0;
+}
+.up img{
+    width: 20%;
+    height: 10vh;
+}
+.contact{
+
+    margin-top: 5vh;
+    text-align: center;
+    font-weight:900;
+    background-color: #333;
+}
+.contact h1{
+    margin-bottom: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+
+}
+.socials img{
+    width: 3%;
+    padding-bottom: 1rem;
+}
+.socials a{
+    margin: 5px;
+}
+.copy{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    background-color: black;
+    padding: 7px;
+}
